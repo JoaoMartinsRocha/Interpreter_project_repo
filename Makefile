@@ -6,7 +6,7 @@ run:
 	java lox.Lox
 
 genAst: tool/GenerateAst.class
-	java tool.GenerateAst /Users/jprocha/Desktop/Interpreter_project/lox/
+	java tool.GenerateAst /Users/jprocha/Desktop/Interpreter_project_repo/lox/
 	
 tool/GenerateAst.class: tool/GenerateAst.java
 	javac tool/GenerateAst.java

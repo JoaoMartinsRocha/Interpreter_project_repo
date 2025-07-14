@@ -1,2 +1,2 @@
-lox/*.class
-tool/*.class
+*.class
+*.class
