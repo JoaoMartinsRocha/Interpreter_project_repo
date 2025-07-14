@@ -1,2 +1,2 @@
-*.class
-*.class
+tool/*.class
+lox/*.class
