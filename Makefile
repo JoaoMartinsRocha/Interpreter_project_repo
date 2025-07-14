@@ -10,3 +10,6 @@ genAst: tool/GenerateAst.class
 	
 tool/GenerateAst.class: tool/GenerateAst.java
 	javac tool/GenerateAst.java
+
+clean:
+	find . -name "*.class" -type f -delete
