@@ -5,3 +5,11 @@ class DevonshireCream {
 }
 
 print DevonshireCream;
+
+class Bacon {
+    eat(){
+        print "crunch!";
+    }
+}
+
+Bacon().eat();
