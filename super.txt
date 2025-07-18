@@ -1,0 +1,14 @@
+class Cake {
+    taste(){
+        print "Tasty!";
+    }
+}
+
+class poundCake < Cake {
+    taste(){
+        super.taste();
+        print "Awesome!";
+    }
+}
+
+poundCake().taste();
